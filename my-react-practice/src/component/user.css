@@ -1,0 +1,61 @@
+/* Center the entire form on the page and give a light background */
+.form-wrapper {
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f0f2f5; /* Light background color */
+  }
+  
+  /* Style the actual form box */
+  .user-form {
+    background-color: #fff; /* White background for the form */
+    padding: 30px 40px; /* Space inside the form box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow around the form */
+    width: 350px; /* Fixed width */
+    font-family: Arial, sans-serif; /* Clean font style */
+  }
+  
+  /* Style the heading inside the form */
+  .user-form h2 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 25px; /* Space below the heading */
+  }
+  
+  /* Label styling above each input field */
+  .user-form label {
+    display: block; /* Make label take full width */
+    margin-bottom: 5px; /* Small space below label */
+    font-weight: 600; /* Bold font weight */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Style for all input fields */
+  .user-form input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Space inside the input */
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 6px; /* Rounded input corners */
+    font-size: 14px; /* Text size in input */
+  }
+  
+  /* Style for the submit button */
+  .user-form button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Button size */
+    background-color: #007bff; /* Primary blue background */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    color: white; /* White text */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for button */
+  .user-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
